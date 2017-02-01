@@ -1,0 +1,158 @@
+body{
+	
+	background-image: url(../images/sandpaper.png);
+	font-family: 'Arial', 'helvetic neue', helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+a{
+	color: #777777;
+	text-decoration: none;
+	text-align: center;
+}
+
+header{
+	background-color:#ffffff;
+	border: 2px solid #cccccc;
+
+}
+
+h1{
+	
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	padding: 25px;
+	border: 1px solid #4aaaa5;
+	display:inline-block;
+	position:relative;
+	left:475px;
+	bottom: -25px;
+}
+
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin-left: 35px;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+	width:575px;
+}
+
+h3{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin-left: 35px;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+	width: 225px;
+}
+
+
+nav{
+	
+	
+	float: right;
+	position:relative;
+	bottom:-75px;
+	left:-430px;
+	width: 270px;
+	font-size: 20px;
+	
+	
+	
+}
+
+.container{
+	
+	margin: 0 auto 0 auto;
+	width: 960px;
+
+}
+
+.about-me{
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	width: 650px;
+	display: inline-block;
+
+
+}
+
+#profile-image{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin:35px;
+	border: 1px solid #dddddd;
+
+}
+
+
+
+p{
+	
+	margin: 35px;
+}
+
+.connect_me{
+
+	float:right;
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	margin:0 auto;
+	width: 270px;
+
+
+}
+
+.social_links{
+
+	margin-left: 35px;
+}
+
+
+
+footer{
+
+	overflow: auto;
+	color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	padding: 50px;
+	border-top: 4px solid #4aaaa5;
+
+}
+
+
+.portfolio{
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	width: 650px;
+	display:inline-block;
+}
+
+.portfolio_image{
+	height: 200px;
+	width: 250px;
+	margin-left: 35px;
+}
+
+.contact{
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	width: 650px;
+	display: inline-block;
+}
+
+form{
+
+	margin-left: 35px;
+}
