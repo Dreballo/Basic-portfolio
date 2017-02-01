@@ -1,3 +1,8 @@
+
+html,body{
+	height:100%;
+}
+
 body{
 	
 	background-image: url(../images/sandpaper.png);
@@ -74,7 +79,16 @@ nav{
 	
 	margin: 0 auto 0 auto;
 	width: 960px;
+	margin-top: 25px;
+	margin-bottom: -250px;
+	min-height: 100%;
 
+
+}
+
+.containter:after{
+	content:"";
+	display:block;
 }
 
 .about-me{
@@ -118,20 +132,6 @@ p{
 	margin-left: 35px;
 }
 
-
-
-footer{
-
-	overflow: auto;
-	color: #ffffff;
-	background-color: #666666;
-	text-align: center;
-	padding: 50px;
-	border-top: 4px solid #4aaaa5;
-
-}
-
-
 .portfolio{
 	background-color: #ffffff;
 	border:2px solid #dddddd;
@@ -155,4 +155,16 @@ footer{
 form{
 
 	margin-left: 35px;
+}
+
+footer{
+
+	clear:both;
+	color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	padding: 50px;
+	border-top: 4px solid #4aaaa5;
+	height: 150px;
+
 }
